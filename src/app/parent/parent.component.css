@@ -1,0 +1,13 @@
+.row{
+    padding: 20px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 20px;
+}
+
+.row > div{
+    background: #fff;
+    padding: 20px;
+}

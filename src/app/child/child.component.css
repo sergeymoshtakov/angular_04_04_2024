@@ -1,0 +1,14 @@
+.wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+button{
+    display: block;
+    width: 25px;
+}
+
+.wrap p{
+    padding: 0 10px;
+}

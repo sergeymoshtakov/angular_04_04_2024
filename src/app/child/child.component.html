@@ -1,0 +1,9 @@
+<p>child works!</p>
+<h3>{{product.name}} <span>{{ind}}</span></h3>
+<p>{{product.price}}</p>
+<div class="wrap">
+    <button (click)="onChanged.emit(-1)">-</button>
+    <p>{{product.quantity}}</p>
+    <button (click)="onChanged.emit(+1)">+</button>
+</div>
+<ng-content></ng-content>

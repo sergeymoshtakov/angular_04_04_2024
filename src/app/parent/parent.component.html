@@ -1,0 +1,11 @@
+<p>parent works!</p>
+<div class="row">
+    <div *ngFor="let product of products; let ind = index">
+        <app-child [product]="product" [ind]="ind" (onChanged)="onChanged($event, ind)">
+            <h2>Text</h2>
+        </app-child>
+    </div>
+</div>
+<br>
+<p>Total quantity: {{totalQuantity}}</p>
+<p>Total price: {{totalPrice}}</p>
